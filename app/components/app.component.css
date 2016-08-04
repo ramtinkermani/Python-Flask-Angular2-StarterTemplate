@@ -1,0 +1,27 @@
+#container {
+    margin:50px;
+}
+
+.icon img {
+    height: 100%;
+}
+
+.icon a{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+
+/* Define mobile specific styles here */
+@media screen and (max-width: 900px) {
+    .icon a {
+        height: auto;
+    }
+    .icon img {
+        width: 70%;
+        height: auto;
+        margin-top: auto;
+    }
+}
